@@ -9,3 +9,5 @@ Options:
   -h, --help   show this help message and exit
   -q QUERIES   directory path with query genomes in FASTA format
   -n NUMCORES  number of cores (default 6)
+
+Ref database is 489Mb
