@@ -12,4 +12,5 @@ Options:
 
 Ref database is 489Mb
 
+conda install -c bioconda fastani
 Requires fastANI (tested with version 1.33)
