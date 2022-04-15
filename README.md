@@ -11,3 +11,5 @@ Options:
   -n NUMCORES  number of cores (default 6)
 
 Ref database is 489Mb
+
+Requires fastANI (tested with version 1.33)
