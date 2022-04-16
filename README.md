@@ -28,6 +28,6 @@ Requirements:
 ./femMCategoriser.py -q query_genomes_EXAMPLE -n 6
 ~~~
 
-* The genome assignments are found in "genome_species_SGB_assignment.tab"
+* The genome assignments can be found in "genome_species_SGB_assignment.tab"
 
 Enjoy, Matt :-)
