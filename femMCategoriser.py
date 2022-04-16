@@ -34,7 +34,7 @@ subprocess.call("fastANI --ql queryGenomes.tab --rl repGenomes.tab -o ANI_query_
 ############################
 #Assign SGB taxonomy based on distance to rep genome
 output = open("genome_species_SGB_assignment.tab", "w")
-output.write("query_genome\tSGB_assignment\tspecies_name\tANI_to_rep_genome\n")
+output.write("query_genome\tSGB_assignment\tspecies_name\tANI\n")
 assigned = []
 seen = []
 
