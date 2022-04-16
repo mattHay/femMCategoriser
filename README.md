@@ -18,7 +18,7 @@ Requirements:
 ./femMCategoriser.py -h
    Options:
       -h, --help   show this help message and exit
-      -q QUERIES   directory path with query genomes in FASTA format
+      -q QUERIES   path to directory with query genomes in FASTA format
       -n NUMCORES  number of cores (default 6)
 ~~~
 
