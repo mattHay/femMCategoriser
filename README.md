@@ -3,7 +3,9 @@ A tool to assign taxonomy to bacterial genomes isolated from the female genital 
 
 Dependencies:
 >fastANI (tested with version 1.33)
+
 >SGB representative genome database (498Mb compressed)
+
 >femMcategoriser requires 20GB RAM
 
 * You will need to run this script to download the representative genome database from Zenodo
