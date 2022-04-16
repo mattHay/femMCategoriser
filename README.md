@@ -10,6 +10,7 @@ A tool to assign taxonomy to bacterial genomes isolated from the female genital 
       -q QUERIES   directory path with query genomes in FASTA format
       -n NUMCORES  number of cores (default 6)
 ~~~
+download_refDB.py
 
 Ref database is 489Mb
 
