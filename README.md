@@ -1,7 +1,7 @@
 # femMCategoriser
 A tool to assign taxonomy to bacterial genomes isolated from the female genital tract based on the FemMCat taxonomy
 
-Dependencies:
+Requirements:
 >fastANI (tested with version 1.33)
 
 >SGB representative genome database (498Mb compressed)
