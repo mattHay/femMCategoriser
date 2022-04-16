@@ -5,7 +5,6 @@ A tool to assign taxonomy to bacterial genomes isolated from the female genital 
 
 ~~~Bash
 ./femMCategoriser.py -h
-
    Options:
       -h, --help   show this help message and exit
       -q QUERIES   directory path with query genomes in FASTA format
