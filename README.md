@@ -9,12 +9,12 @@ Requirements:
 >femMcategoriser requires 20GB RAM
 
 * You will need to run this script to download the representative genome database from Zenodo
-~~~Python
+~~~
 ./download_refDB.py
 ~~~
 
 * Help message
-~~~Python
+~~~
 ./femMCategoriser.py -h
    Options:
       -h, --help   show this help message and exit
@@ -24,7 +24,7 @@ Requirements:
 
 * This repo has a small test case (takes about 3 mins with 6 nodes) which you can run with this:
 
-~~~Python
+~~~
 ./femMCategoriser.py -q query_genomes_EXAMPLE -n 6
 ~~~
 
