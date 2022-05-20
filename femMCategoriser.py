@@ -52,13 +52,13 @@ for ent in open("ANI_query_reps.tsv", "r"):
 
         taxonomy[1] = "uSGB"
 
-    ANI = 100 - float(ent[2])
+    ANI = float(ent[2])
 
-    #To assign an SGB the query must be withint 5% average nucleotide ID (ANI) of a rep genome
-    if ANI < 5: 
+    #To assign an SGB the query must be within 5% average nucleotide ID (ANI) of a rep genome
+    if ANI > 95: 
 
         assigned.append(genome1)
-        output.write(genome1 + "\t" + taxonomy[0] + "\t" + taxonomy[1] + "\t" + str(ANI)[:3] + "\n")
+        output.write(genome1 + "\t" + taxonomy[0] + "\t" + taxonomy[1].split(".f")[0] + "\t" + str(ANI)[:5] + "\n")
 
 #Write query genomes which did not get assigned an SGB
 seen = list(set(seen))
@@ -66,7 +66,7 @@ for ent in seen:
 
     if ent not in assigned:
 
-        output.write(ent + "\tno_assignment\tno_assignment\tNA\n")
+        output.write(ent + "\tnot_in_femMCat\tnot_in_femMCat\tNA\n")
 
 output.close()
 
